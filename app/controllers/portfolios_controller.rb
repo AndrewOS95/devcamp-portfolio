@@ -7,8 +7,8 @@ class PortfoliosController < ApplicationController
 		@angular_portfolio_items = Portfolio.angular
 	end
 
-	def rails
-		@rails_portfolio_items = Portfolio.rails
+	def rail
+		@rail_portfolio_items = Portfolio.rail
 	end
 
 	def new
